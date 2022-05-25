@@ -2,7 +2,7 @@
 
 Note|Description
 :----|:----
-Command Line script  Download Install macOS |from 10.13 to macOS 12
+Command Line script to download Install macOS |From 10.13 to macOS 12
 
 ### Credit: [Apple](https://support.apple.com/en-us/HT211683)
 
