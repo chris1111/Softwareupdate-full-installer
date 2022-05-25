@@ -6,6 +6,9 @@ Command Line script  Download Install macOS |from 10.13 to macOS 12
 
 ### Credit: [Apple](https://support.apple.com/en-us/HT211683)
 
+### Download script ➤ [Softwareupdate-full-installer ](https://github.com/chris1111/Softwareupdate-full-installer/raw/Master/Softwareupdate-full-installer.zip )
+
+
 ![Screen Shot ](https://user-images.githubusercontent.com/6248794/170157247-ac22ec7e-c38d-46be-8596-d5dbbc08d965.png)
 
 
