@@ -11,7 +11,13 @@ Command Line script to download Install macOS |From 10.13 to macOS 12
 
 ![Screen Shot ](https://user-images.githubusercontent.com/6248794/170157247-ac22ec7e-c38d-46be-8596-d5dbbc08d965.png)
 
+
 ![Screen Shot 2022-05-24 at 9 24 01 PM](https://user-images.githubusercontent.com/6248794/170158690-18794813-798e-4941-828c-b59e6f301900.png)
+
+#### At the end it will be in Applications
+![Screen Shot 2022-05-29 at 7 47 36 PM](https://user-images.githubusercontent.com/6248794/170896196-c9a9b47a-f5c9-4d36-a8ba-1ae99e6cacc2.png)
+
+
 
 
 #### When there will be an update on the Install macOS you simply have to edit the script to always have the latest macOS on all versions available.
