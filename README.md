@@ -1,6 +1,6 @@
 # Softwareupdate-full-installer
 
-Note|Description
+Description|Note
 :----|:----
 Command Line script to download Install macOS |From 10.13 to macOS 12
 
