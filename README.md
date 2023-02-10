@@ -22,17 +22,17 @@ Command Line script to download Install macOS |From 10.13 to macOS 13
 
 #### When there will be an update on the Install macOS you simply have to edit the script to always have the latest macOS on all versions available.
 
-#### E.G. Monterey
+#### E.G. Ventura
 ```bash
-echo "Download macOS Monterey 12.5 
+echo "Download macOS Ventura 13.2 
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 12.5
+softwareupdate --fetch-full-installer --full-installer-version 13.2
 echo " "
 ```
 #### Update ⇩
 ```bash
-echo "Download macOS Monterey 12.6
+echo "Download macOS Ventura 13.3
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 12.6
+softwareupdate --fetch-full-installer --full-installer-version 13.3
 echo " "
 ```

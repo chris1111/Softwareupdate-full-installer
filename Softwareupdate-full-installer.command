@@ -8,7 +8,7 @@ cd "$PARENTDIR"
 sleep 1 & PID=$! #Progress Bar
 
 echo "`tput setaf 7``tput sgr0``tput bold``tput setaf 26`
-                **************************************************** 
+                **************************************************** 
               **************   DOWNLOAD INSTALL MACOS  ************** 
                 ****************************************************
 `tput sgr0` `tput setaf 7``tput sgr0`"
@@ -57,10 +57,10 @@ echo "               =========================================== "
 echo "                     ✅  4 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Catalina 10.15`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "               =========================================== "
 echo "                     ✅  5 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Mojave 10.14`tput sgr0` `tput setaf 7``tput sgr0`"
-echo "               =========================================== "  
-echo "                     ✅  6 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS High Sierra 10.13`tput sgr0` `tput setaf 7``tput sgr0`" 
+echo "               =========================================== "  
+echo "                     ✅  6 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS High Sierra 10.13`tput sgr0` `tput setaf 7``tput sgr0`" 
 echo "               =========================================== "
-echo "                     ❎  X = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`Quitter (Sortir)`tput sgr0` `tput setaf 7``tput sgr0`" 
+echo "                     ❎  X = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`Quitter (Sortir)`tput sgr0` `tput setaf 7``tput sgr0`" 
 echo "               =========================================== "
 
 echo "              = = = = = = = = = = = = = = = = = = = = = = = = =  "
@@ -77,9 +77,9 @@ function INSTALLER-A
 {
 head
 echo " "
-echo "Download macOS Ventura 13.0 
+echo "Download macOS Ventura 13.2
 Attendez... "
-softwareupdate --fetch-full-installer --full-installer-version 13.0
+softwareupdate --fetch-full-installer --full-installer-version 13.2
 echo " "
 }
 function INSTALLER-B
