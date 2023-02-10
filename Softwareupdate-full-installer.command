@@ -1,4 +1,3 @@
-#!/bin/bash
 # By chris1111 
 # Credit: Apple
 # Vars
