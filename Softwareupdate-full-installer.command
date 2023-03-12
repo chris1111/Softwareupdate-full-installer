@@ -60,7 +60,7 @@ echo "                           ✅  5 = `tput setaf 7``tput sgr0``tput bold``t
 echo "                     =========================================== "  
 echo "                           ✅  6 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS High Sierra 10.13`tput sgr0` `tput setaf 7``tput sgr0`" 
 echo "                     =========================================== "
-echo "                           ❎  L = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`Liste (list-full-installers)`tput sgr0` `tput setaf 7``tput sgr0`" 
+echo "                           ❎  L = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`List (list-full-installers)`tput sgr0` `tput setaf 7``tput sgr0`" 
 echo "                     =========================================== "
 echo "                           ❎  X = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`Quit (Exit)`tput sgr0` `tput setaf 7``tput sgr0`" 
 echo "                     =========================================== "
