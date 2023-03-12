@@ -1,0 +1,5 @@
+title: Softwareupdate-full-installer
+description: Command Line script to download Install macOS.
+github:
+  repository_url: https://github.com/chris1111/Softwareupdate-full-installer
+remote_theme: chris1111/cayman-dark
