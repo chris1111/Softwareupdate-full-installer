@@ -40,13 +40,13 @@ echo "                   = = = = = = = = = = = = = = = = = = = = = = = = =  "
 }
 function menu
 {
-echo "                           Wlcome "`tput setaf 7``tput sgr0``tput bold``tput setaf 26`$nameh`tput sgr0` `tput setaf 7``tput sgr0`", Installer macOS"
+echo "                           Welcome "`tput setaf 7``tput sgr0``tput bold``tput setaf 26`$nameh`tput sgr0` `tput setaf 7``tput sgr0`", Installer macOS"
 echo " "
 echo "                       `tput setaf 26`
                                     Credit: Apple"
 echo " "
 echo "                        
-                           `tput setaf 7``tput sgr0``tput bold``tput setaf 26`Type the number: ⬇  to  Download`tput sgr0` `tput setaf 7``tput sgr0`︎"
+                           `tput setaf 7``tput sgr0``tput bold``tput setaf 26`Type the number: ⬇ to Download`tput sgr0` `tput setaf 7``tput sgr0`︎"
 echo "                     =========================================== "
 echo "                           ✅  1 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Ventura 13`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
