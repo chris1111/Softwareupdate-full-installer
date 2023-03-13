@@ -133,8 +133,8 @@ function L
 {
 head
 echo " "
-echo "liste-full-installers
-Wait... "
+echo "list-full-installers
+View List. "
 softwareupdate --list-full-installers
 echo " "
 }

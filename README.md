@@ -16,7 +16,7 @@ Command Line script to download Install macOS |From 10.13 to macOS 13
 ![Screenshot 2023-03-12 at 7 04 49 PM](https://user-images.githubusercontent.com/6248794/224579451-02b6bbb1-d9f6-474f-a45b-aa155c59a9a3.png)
 
 #### `Option L` = list-full-installers ⬇︎
-![Screenshot 2023-03-12 at 7 03 18 PM](https://user-images.githubusercontent.com/6248794/224580595-6287014a-92ed-4fd1-98e9-c7efcce0fb8a.png)
+![Screenshot 2023-03-12 at 7 03 18 PM](https://user-images.githubusercontent.com/6248794/224582053-ab847faf-e08b-42f9-ada8-8b36ef655f82.png)
 
 #### At the end it will be in the Applications
 ![Untitled](https://user-images.githubusercontent.com/6248794/218190466-238bb91e-ab7b-48b5-9553-66e13cc379f2.png)
