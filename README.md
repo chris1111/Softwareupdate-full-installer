@@ -26,17 +26,17 @@ Command Line script to download Install macOS |From 10.13 to macOS 14
 
 #### When there will be an update on the Install macOS you simply have to edit the script to always have the latest macOS on all versions available.
 
-#### E.G. Ventura
+#### E.G. Sonoma
 ```bash
-echo "Download macOS Ventura 13.2 
+echo "Download macOS Sonoma 14.2 
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 13.2
+softwareupdate --fetch-full-installer --full-installer-version 14.2
 echo " "
 ```
 #### Update ⇩
 ```bash
-echo "Download macOS Ventura 13.3
+echo "Download macOS Sonoma 14.3
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 13.3
+softwareupdate --fetch-full-installer --full-installer-version 14.3
 echo " "
 ```
