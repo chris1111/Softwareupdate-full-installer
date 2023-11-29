@@ -106,9 +106,9 @@ function INSTALLER-D
 {
 head
 echo " "
-echo "Download macOS Big Sur 11.7.1
+echo "Download macOS Big Sur 11.7.10
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 11.7.1
+softwareupdate --fetch-full-installer --full-installer-version 11.7.10
 echo " "
 }
 function INSTALLER-E
