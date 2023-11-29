@@ -9,23 +9,22 @@ Softwareupdate-full-installer
 
 Description|Note
 :----|:----
-Command Line script to download Install macOS |From 10.13 to macOS 13
+Command Line script to download Install macOS |From 10.13 to macOS 14
 
 ### Credit: [Apple](https://support.apple.com/en-us/HT211683)
 
 ### Download script ➤ [Softwareupdate-full-installer ](https://github.com/chris1111/Softwareupdate-full-installer/raw/Master/Softwareupdate-full-installer.zip )
 
-![Screenshot 2023-03-12 at 7 03 18 PM](https://user-images.githubusercontent.com/6248794/224579441-4bc02a25-06a3-4a3d-a72f-f82af94f514f.png)
+![Screenshot 1](https://github.com/chris1111/Softwareupdate-full-installer/assets/6248794/c71f50d5-2556-46a2-ba19-f3d889988236)
 
-![Screenshot 2023-03-12 at 7 04 49 PM](https://user-images.githubusercontent.com/6248794/224579451-02b6bbb1-d9f6-474f-a45b-aa155c59a9a3.png)
+![Screenshot 2](https://github.com/chris1111/Softwareupdate-full-installer/assets/6248794/07227119-c9eb-423c-ae96-e68584050fe2)
+
 
 #### `Option L` = list-full-installers ⬇︎
-![Screenshot 2023-03-12 at 7 03 18 PM](https://user-images.githubusercontent.com/6248794/224582053-ab847faf-e08b-42f9-ada8-8b36ef655f82.png)
+![Screenshot 3](https://github.com/chris1111/Softwareupdate-full-installer/assets/6248794/b193732d-bfd4-44ed-b6aa-b484ec66cde3)
 
 #### At the end it will be in the Applications
-![Untitled](https://user-images.githubusercontent.com/6248794/218190466-238bb91e-ab7b-48b5-9553-66e13cc379f2.png)
-
-
+![Screenshot 2023-11-28 at 10 25 42 PM](https://github.com/chris1111/Softwareupdate-full-installer/assets/6248794/16f27083-ffaf-4b2b-9b09-69239738720c)
 
 
 
