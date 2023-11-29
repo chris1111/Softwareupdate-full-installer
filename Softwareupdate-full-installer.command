@@ -60,8 +60,6 @@ echo "                           ✅  5 = `tput setaf 7``tput sgr0``tput bold``t
 echo "                     =========================================== "
 echo "                           ✅  6 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Mojave 10.14`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "  
-echo "                           ✅  7 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS High Sierra 10.13`tput sgr0` `tput setaf 7``tput sgr0`" 
-echo "                     =========================================== "
 echo "                           ❎  L = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`List (list-full-installers)`tput sgr0` `tput setaf 7``tput sgr0`" 
 echo "                     =========================================== "
 echo "                           ❎  X = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`Quit (Exit)`tput sgr0` `tput setaf 7``tput sgr0`" 
@@ -129,15 +127,6 @@ echo " "
 echo "Download macOS Mojave 10.14.6
 Wait... "
 softwareupdate --fetch-full-installer --full-installer-version 10.14.6
-echo " "
-}
-function INSTALLER-G
-{
-head
-echo " "
-echo "Download macOS High Sierra 10.13.6 
-Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 10.13.6
 echo " "
 }
 function L
