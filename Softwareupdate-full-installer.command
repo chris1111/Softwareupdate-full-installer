@@ -90,27 +90,27 @@ function INSTALLER-B
 {
 head
 echo " "
-echo "Download macOS Sonoma 14.6.1
+echo "Download macOS Sonoma 14.5
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 14.6
+softwareupdate --fetch-full-installer --full-installer-version 14.5
 echo " "
 }
 function INSTALLER-C
 {
 head
 echo " "
-echo "Download macOS Ventura 13.6.1
+echo "Download macOS Ventura 13.6.7
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 13.6.1
+softwareupdate --fetch-full-installer --full-installer-version 13.6.7
 echo " "
 }
 function INSTALLER-D
 {
 head
 echo " "
-echo "Download macOS Monterey 12.6.1
+echo "Download macOS Monterey 12.7.5
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 12.6.1
+softwareupdate --fetch-full-installer --full-installer-version 12.7.5
 echo " "
 }
 function INSTALLER-E
