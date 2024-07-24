@@ -9,38 +9,43 @@ Softwareupdate-full-installer
 
 Description|Note
 :----|:----
-Command Line script to download Install macOS |From 10.14 to macOS 14
+Command Line script to download Install macOS |From 10.14 to macOS 15
 
 ### Credit: [Apple](https://support.apple.com/en-us/HT211683)
 
 ### Download script ➤ [Softwareupdate-full-installer ](https://github.com/chris1111/Softwareupdate-full-installer/raw/Master/Softwareupdate-full-installer.command.zip)
 
-![Screenshot 0](https://github.com/chris1111/Softwareupdate-full-installer/assets/6248794/74513f83-b312-4d55-be3f-c4991c5a0787)
+![Screenshot 2024-07-24 at 3 38 44 PM](https://github.com/user-attachments/assets/0644c937-8bea-475b-8a30-dcdf46ca07a5)
 
-![Screenshot 2](https://github.com/chris1111/Softwareupdate-full-installer/assets/6248794/07227119-c9eb-423c-ae96-e68584050fe2)
+![Screenshot 2024-07-24 at 3 40 00 PM](https://github.com/user-attachments/assets/bf13dc61-9581-48cd-be64-8da3326072d9)
 
 
-#### `Option L` = list-full-installers ⬇︎
-![Screenshot 3](https://github.com/chris1111/Softwareupdate-full-installer/assets/6248794/b193732d-bfd4-44ed-b6aa-b484ec66cde3)
+
+
+#### `Option L' List (list-full-installers)  
+
+![Screenshot 2024-07-24 at 3 40 51 PM](https://github.com/user-attachments/assets/ad03883f-dbdf-4591-ba70-0e71a3bb0a5a)
+
 
 #### At the end it will be in the Applications
-![Screenshot 2023-11-28 at 10 25 42 PM](https://github.com/chris1111/Softwareupdate-full-installer/assets/6248794/16f27083-ffaf-4b2b-9b09-69239738720c)
+
+![Screenshot 2024-07-24 at 3 43 05 PM](https://github.com/user-attachments/assets/9fbafcfe-a12c-48c6-ab63-379028faae7e)
 
 
 
 #### When there will be an update on the Install macOS you simply have to edit the script to always have the latest macOS on all versions available.
 
-#### E.G. Sonoma
+#### E.G. Sequoia
 ```bash
-echo "Download macOS Sonoma 14.2 
+echo "Download macOS Sequoia 15.0
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 14.2
+softwareupdate --fetch-full-installer --full-installer-version 15.0
 echo " "
 ```
 #### Update ⇩
 ```bash
-echo "Download macOS Sonoma 14.3
+echo "Download macOS Sequoia 15.1
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 14.3
+softwareupdate --fetch-full-installer --full-installer-version 15.1
 echo " "
 ```
