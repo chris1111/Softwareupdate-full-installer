@@ -19,7 +19,7 @@ Command Line script to download Install macOS |From 10.14 to macOS 15
 
 ![Screenshot 2024-07-24 at 3 40 00 PM](https://github.com/user-attachments/assets/bf13dc61-9581-48cd-be64-8da3326072d9)
 
-
+![Screenshot 2024-07-24 at 3 50 34 PM](https://github.com/user-attachments/assets/90f03d31-87f6-4269-ac0e-a035d48bfedc)
 
 
 #### `Option L' List (list-full-installers)  
