@@ -1,5 +1,5 @@
 #!/bin/bash
-# (c) Copyright 2022, 2023 chris1111 
+# (c) Copyright 2022, 2024 chris1111 
 # Vars
 
 PARENTDIR=$(dirname "$0")
@@ -47,18 +47,20 @@ echo "                       `tput setaf 26`
 echo " "
 echo "                        
                            `tput setaf 7``tput sgr0``tput bold``tput setaf 26`Type the number: ⬇ to Download`tput sgr0` `tput setaf 7``tput sgr0`︎"
+                           echo "                     =========================================== "
+echo "                           ✅  1 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Sequoia 15`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
-echo "                           ✅  1 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Sonoma 14`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  2 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Sonoma 14`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
-echo "                           ✅  2 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Ventura 13`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  3 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Ventura 13`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
-echo "                           ✅  3 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Monterey 12`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  4 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Monterey 12`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
-echo "                           ✅  4 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Big Sur 11`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  5 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Big Sur 11`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
-echo "                           ✅  5 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Catalina 10.15`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  6 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Catalina 10.15`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
-echo "                           ✅  6 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Mojave 10.14`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  7 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Mojave 10.14`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "  
 echo "                           ❎  L = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`List (list-full-installers)`tput sgr0` `tput setaf 7``tput sgr0`" 
 echo "                     =========================================== "
@@ -79,12 +81,21 @@ function INSTALLER-A
 {
 head
 echo " "
-echo "Download macOS Sonoma 14.1.1
+echo "Download macOS Sequoia 15.0
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 14.1.1
+softwareupdate --fetch-full-installer --full-installer-version 15.0
 echo " "
 }
 function INSTALLER-B
+{
+head
+echo " "
+echo "Download macOS Sonoma 14.6.1
+Wait... "
+softwareupdate --fetch-full-installer --full-installer-version 14.6
+echo " "
+}
+function INSTALLER-C
 {
 head
 echo " "
@@ -93,7 +104,7 @@ Wait... "
 softwareupdate --fetch-full-installer --full-installer-version 13.6.1
 echo " "
 }
-function INSTALLER-C
+function INSTALLER-D
 {
 head
 echo " "
@@ -102,7 +113,7 @@ Wait... "
 softwareupdate --fetch-full-installer --full-installer-version 12.6.1
 echo " "
 }
-function INSTALLER-D
+function INSTALLER-E
 {
 head
 echo " "
@@ -111,7 +122,7 @@ Wait... "
 softwareupdate --fetch-full-installer --full-installer-version 11.7.10
 echo " "
 }
-function INSTALLER-E
+function INSTALLER-F
 {
 head
 echo " "
@@ -120,7 +131,7 @@ Wait... "
 softwareupdate --fetch-full-installer --full-installer-version 10.15.7
 echo " "
 }
-function INSTALLER-F
+function INSTALLER-G
 {
 head
 echo " "
@@ -181,6 +192,9 @@ INSTALLER-E ;;
 6|6)
 echo
 INSTALLER-F ;;
+7|7)
+echo
+INSTALLER-G ;;
 l|L)
 echo
 L ;;
