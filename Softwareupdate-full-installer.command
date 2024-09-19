@@ -81,18 +81,18 @@ function INSTALLER-A
 {
 head
 echo " "
-echo "Download macOS Sequoia 15.0
+echo "Download macOS Sequoia 15.1
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 15.0
+softwareupdate --fetch-full-installer --full-installer-version 15.1
 echo " "
 }
 function INSTALLER-B
 {
 head
 echo " "
-echo "Download macOS Sonoma 14.5
+echo "Download macOS Sonoma 14.7
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 14.5
+softwareupdate --fetch-full-installer --full-installer-version 14.7
 echo " "
 }
 function INSTALLER-C
