@@ -21,7 +21,7 @@ while kill -0 $PID 2> /dev/null; do
     sleep 0.2
 done
 
-printf '\e[8;50;90t'
+printf '\e[8;45;80t'
 
 nameh=`users`
 function echob() {
@@ -48,19 +48,21 @@ echo " "
 echo "                        
                            `tput setaf 7``tput sgr0``tput bold``tput setaf 26`Type the number: ⬇ to Download`tput sgr0` `tput setaf 7``tput sgr0`︎"
                            echo "                     =========================================== "
-echo "                           ✅  1 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Sequoia 15`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  1 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Tahoe 26`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
-echo "                           ✅  2 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Sonoma 14`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  2 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Sequoia 15`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
-echo "                           ✅  3 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Ventura 13`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  3 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Sonoma 14`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
-echo "                           ✅  4 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Monterey 12`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  4 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Ventura 13`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
-echo "                           ✅  5 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Big Sur 11`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  5 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Monterey 12`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
-echo "                           ✅  6 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Catalina 10.15`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  6 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Big Sur 11`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "
-echo "                           ✅  7 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Mojave 10.14`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                           ✅  7 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Catalina 10.15`tput sgr0` `tput setaf 7``tput sgr0`"
+echo "                     =========================================== "
+echo "                           ✅  8 = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`macOS Mojave 10.14`tput sgr0` `tput setaf 7``tput sgr0`"
 echo "                     =========================================== "  
 echo "                           ❎  L = `tput setaf 7``tput sgr0``tput bold``tput setaf 26`List (list-full-installers)`tput sgr0` `tput setaf 7``tput sgr0`" 
 echo "                     =========================================== "
@@ -81,30 +83,39 @@ function INSTALLER-A
 {
 head
 echo " "
-echo "Download macOS Sequoia 15.1
+echo "Download macOS Tahoe 26.0
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 15.1
+softwareupdate --fetch-full-installer --full-installer-version 26.0
 echo " "
 }
 function INSTALLER-B
 {
 head
 echo " "
-echo "Download macOS Sonoma 14.7
+echo "Download macOS Sequoia 15.7
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 14.7
+softwareupdate --fetch-full-installer --full-installer-version 15.7
 echo " "
 }
 function INSTALLER-C
 {
 head
 echo " "
-echo "Download macOS Ventura 13.6.7
+echo "Download macOS Sonoma 14.7.7
 Wait... "
-softwareupdate --fetch-full-installer --full-installer-version 13.6.7
+softwareupdate --fetch-full-installer --full-installer-version 14.7.7
 echo " "
 }
 function INSTALLER-D
+{
+head
+echo " "
+echo "Download macOS Ventura 13.7.7
+Wait... "
+softwareupdate --fetch-full-installer --full-installer-version 13.7.7
+echo " "
+}
+function INSTALLER-E
 {
 head
 echo " "
@@ -113,7 +124,7 @@ Wait... "
 softwareupdate --fetch-full-installer --full-installer-version 12.7.5
 echo " "
 }
-function INSTALLER-E
+function INSTALLER-F
 {
 head
 echo " "
@@ -122,7 +133,7 @@ Wait... "
 softwareupdate --fetch-full-installer --full-installer-version 11.7.10
 echo " "
 }
-function INSTALLER-F
+function INSTALLER-G
 {
 head
 echo " "
@@ -131,7 +142,7 @@ Wait... "
 softwareupdate --fetch-full-installer --full-installer-version 10.15.7
 echo " "
 }
-function INSTALLER-G
+function INSTALLER-H
 {
 head
 echo " "
@@ -195,6 +206,9 @@ INSTALLER-F ;;
 7|7)
 echo
 INSTALLER-G ;;
+8|8)
+echo
+INSTALLER-H ;;
 l|L)
 echo
 L ;;
