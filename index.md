@@ -9,7 +9,7 @@ Softwareupdate-full-installer
 
 Description|Note
 :----|:----
-Command Line script to download Install macOS |From 10.14 to macOS 15
+Command Line script to download Install macOS |From 10.14 to macOS 26
 
 ### Credit: [Apple](https://support.apple.com/en-us/HT211683)
 
