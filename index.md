@@ -15,7 +15,7 @@ Command Line script to download Install macOS |From 10.14 to macOS 15
 
 ### Download script ➤ [Softwareupdate-full-installer ](https://github.com/chris1111/Softwareupdate-full-installer/raw/Master/Softwareupdate-full-installer.command.zip)
 
-![Screenshot 2024-07-24 at 3 38 44 PM](https://github.com/user-attachments/assets/0644c937-8bea-475b-8a30-dcdf46ca07a5)
+<img width="573" height="733" alt="Screenshot" src="https://github.com/user-attachments/assets/c00a9220-682b-41a4-a723-b93b7712e9ca" />
 
 ![Screenshot 2024-07-24 at 3 40 00 PM](https://github.com/user-attachments/assets/bf13dc61-9581-48cd-be64-8da3326072d9)
 
